@@ -7,8 +7,8 @@ export default {
     theme: {
         extend: {
             colors: {
-                accent: "#a855f7", // Purple for AlgoViz
-                dark: "#030712",
+                accent: "#8b5cf6", // Violet for AlgoViz
+                dark: "#020617",
             },
             boxShadow: {
                 'glow': '0 0 30px rgba(168, 85, 247, 0.1)',
