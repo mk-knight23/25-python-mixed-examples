@@ -19,3 +19,5 @@ venv/
 .mypy_cache/
 db.sqlite3
 *.ipynb_checkpoints/
+.vercel
+.env*.local

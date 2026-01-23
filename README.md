@@ -20,16 +20,23 @@
 ```bash
 # Interactive Explorer
 npm install
-npm run dev
-
-# Python Examples
-# Browse the root directory for scripts
-```
-
 ## Documentation
-Additional technical details can be found in the [docs/](docs/) directory.
+- [Architecture Overview](docs/ARCHITECTURE.md)
+- [Design System](docs/DESIGN.md)
+- [Deployment Guide](docs/DEPLOY.md)
 
 ## Live Deployment
-GitHub Pages: [https://mk-knight23.github.io/25-python-mixed-examples/](https://mk-knight23.github.io/25-python-mixed-examples/)
-Status: 🟢 Live
-Last Updated: 2026-01-21
+- **GitHub Pages**: [https://mk-knight23.github.io/25-python-mixed-examples/](https://mk-knight23.github.io/25-python-mixed-examples/)
+- **Status**: 🟢 Live
+- **Modernized**: 2026-01-23
+
+---
+*Maintained by [Kazi Musharraf](https://github.com/mk-knight23)*
+
+## 🌐 Live Deployments
+
+- Vercel: https://25-python-mixed-examples.vercel.app
+- GitHub Pages: https://mk-knight23.github.io/25-python-mixed-examples/
+
+Status: 🟢 Deployments Live  
+Last Updated: 2026-01-23

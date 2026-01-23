@@ -1,17 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+    --color-accent: #a100ff;
+}
 
 @layer base {
     body {
-        @apply antialiased bg-[#030712] text-slate-300;
+        @apply bg-slate-950 text-white antialiased selection:bg-accent/30;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
     }
 }
 
-.glow-card {
-    @apply bg-slate-900/50 backdrop-blur-xl border border-white/5 rounded-3xl p-8 hover:border-accent/50 transition-all duration-500 hover:shadow-glow;
-}
+@layer components {
+    .glow-card {
+        @apply bg-white/5 backdrop-blur-2xl border border-white/5 rounded-[2.5rem] overflow-hidden transition-all hover:border-accent/40;
+    }
 
-.visualizer-node {
-    @apply bg-accent rounded-lg shadow-node;
+    .visualizer-node {
+        @apply rounded-t-xl transition-all duration-300;
+    }
 }

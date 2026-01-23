@@ -170,7 +170,7 @@ export default function App() {
                         <Github className="w-4 h-4 cursor-pointer hover:text-accent transition-colors" />
                         <Compass className="w-4 h-4 cursor-pointer hover:text-accent transition-colors" />
                     </div>
-                    <p className="text-[10px] font-bold text-slate-600 uppercase tracking-[0.4em]">© 2024 MK_ALGO_VISUALIZER • 25/30 DEPLOYED</p>
+                    <p className="text-[10px] font-bold text-slate-600 uppercase tracking-[0.4em]">© 2026 ALGO_VIZ // MASTER • 25/30 DISPATCHED</p>
                 </div>
             </footer>
         </div>
